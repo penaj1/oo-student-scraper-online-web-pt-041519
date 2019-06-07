@@ -23,6 +23,7 @@ class Student
     attributes.each do |key, value|
       self.send("#{key}=", value )
     end 
+  end
     @@all << self
   end
 
