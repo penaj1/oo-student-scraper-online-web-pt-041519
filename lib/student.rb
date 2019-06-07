@@ -5,7 +5,6 @@ class Student
   @@all = []
 
   def initialize(student_hash = {})
-    @name = name
     @@all = self
   end
 
