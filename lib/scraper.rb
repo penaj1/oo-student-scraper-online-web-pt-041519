@@ -31,8 +31,8 @@ class Scraper
         students_hash[:twitter] = social_link['href']
       elsif social_links["href"].include? "linkedin"
         students_hash[:linkedin] = social_link['href']
-      elsif social_links["href"].include? "twitter"
-        students_hash[:twitter] = social_link['href']
+      elsif social_links["href"].include? "github"
+        students_hash[:github] = social_link['href']
     
   end
 
