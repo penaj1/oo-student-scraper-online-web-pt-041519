@@ -39,7 +39,7 @@ class Scraper
   end
   students_hash[:profile_quote] = page.css("div.profile-quote").text
   students_hash[:bio] = page.css("div.description-holder p").text
-  student_hash
+  students_hash
   end
 
 end
