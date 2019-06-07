@@ -35,7 +35,7 @@ class Scraper
         students_hash[:github] = social_link['href']
       else social_links["href"].include? "github"
         students_hash[:github] = social_link['href']
-    
+    end
   end
 
 end
