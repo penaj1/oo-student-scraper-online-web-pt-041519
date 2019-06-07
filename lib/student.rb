@@ -15,7 +15,8 @@ class Student
 
   def self.create_from_collection(students_array)
     studets_array.each do |el|
-      
+      self.new(el)
+    end
   end
 
   def add_student_attributes(attributes_hash)
