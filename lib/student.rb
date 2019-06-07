@@ -6,7 +6,6 @@ class Student
 
   def initialize(student_hash}
     @@name = name
-    @@all << self
   end
 
   def self.create_from_collection(students_array)
