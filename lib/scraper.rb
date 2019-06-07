@@ -37,5 +37,6 @@ class Scraper
         students_hash[:blog] = social_link['href']
     end
   end
+end
 
 end
