@@ -37,7 +37,8 @@ class Scraper
         students_hash[:blog] = social_links['href']
     end
   end
-  students_hash
+  students_hash[:profile_quote] = doc.css("div.profile-quote").text
+  students_hash[:bio] = doc.css("div.description-holder p").text
 end
 
 end
